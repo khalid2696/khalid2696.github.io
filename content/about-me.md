@@ -2,6 +2,8 @@
 
 I am a PhD candidate at the University of Maryland, College Park, specializing in Robotics, Autonomy, Motion Planning, and Dynamical Systems and Control Theory. My research focuses on developing innovative solutions in these fields, aiming to enhance the capabilities of autonomous systems.
 
+<!-- My foundation is grounded in a rigorous approach to problem-solving, centered on first principles and advanced mathematics. I’m particularly drawn to the intersections of mathematics, perception, embedded hardware, and control systems—core elements of autonomy that captivate me both in theory and practice.  -->
+
 ### Research Interests
 
 - **Robotics**: Exploring the intersection of robotics and artificial intelligence to create intelligent systems that can operate in complex environments.
@@ -16,3 +18,13 @@ In my free time, I enjoy playing badminton, photography, and filmmaking. These h
 Graduated from IIT Madras, summa cum laude. Though my university doesn't give an official title, I know I'm one because I had a class rank 1 in my batch.
 
 Feel free to reach out if you would like to discuss research collaborations or share insights in these areas!
+
+For inquiries, please reach out via email at **khalid26@umd.edu**.
+
+You can also connect with me through my professional profiles:
+
+- [LinkedIn](https://www.linkedin.com/in/mohamed-khalid-24720690/)
+- [Google Scholar](https://scholar.google.com/citations?user=Clnud_MAAAAJ&hl=en)
+- [ORCID](https://orcid.org/0000-0003-2576-857X)
+
+Feel free to contact me regarding research collaborations, job opportunities, or any other questions you may have!

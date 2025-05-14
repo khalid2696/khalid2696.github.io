@@ -1,4 +1,4 @@
-# Fun Stuff
+# Fun Stuff and Useful resources
 
 ### Random blurbs about me:
 - Before getting serious in my academic career, I was a lifestyle photographer and indie short filmmaker.
