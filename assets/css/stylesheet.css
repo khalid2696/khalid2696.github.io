@@ -104,3 +104,34 @@ a {
 body.dark-mode a {
     color: lightblue;
 }
+
+/* Define theme-specific variables */
+:root {
+    --highlight-bg: #ffffd0; /* Light mode background */
+    --highlight-text: black; /* Light mode text color */
+}
+
+body.dark-mode {
+    --highlight-bg: #444444; /* Dark mode background */
+    --highlight-text: white; /* Dark mode text color */
+}
+
+/* Apply the variables */
+td.highlighted {
+    background-color: var(--highlight-bg);
+    color: var(--highlight-text);
+}
+
+/* Define theme-specific variables */
+:root {
+    --highlight-text-color: red; /* Default color for light mode */
+}
+
+body.dark-mode {
+    --highlight-text-color: orange; /* Adjusted color for dark mode */
+}
+
+/* Apply the variable */
+.highlighted-text {
+    color: var(--highlight-text-color);
+}
