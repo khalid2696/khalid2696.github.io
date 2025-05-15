@@ -8,11 +8,13 @@
 
 a:link{
 	text-decoration:none; 
-	color: #0000FF;
+	color: #0505e6ea;
 	}
 a:visited{
 	text-decoration:none;
-	color: #0066AA;
+	/*color: #0066AA;*/
+	color: #0505e6ea; /*#0000FF;*/
+
 	}
 a:active{
 	text-decoration:none;
@@ -82,3 +84,23 @@ a.new-tab::after {
 	margin: auto;
 }
 
+
+/* Light Mode (default) */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* Optional: Adjust other elements for dark mode */
+a {
+    color: blue;
+}
+body.dark-mode a {
+    color: lightblue;
+}

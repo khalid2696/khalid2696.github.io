@@ -5,7 +5,9 @@
 - I follow Manchester United, Chennai Super Kings, and Australian Test cricket.
 - I used to crack Math Olympiads during high school.
 - Foreword to biography of young Khalid (if that ever happens) -- as written by my undergrad hostel mates.
-- [My Erdős Number is 4](https://www.csauthors.net/distance/mohamed-khalid-m-jaffar/paul-erdos).
+- <a href="https://www.csauthors.net/distance/mohamed-khalid-m-jaffar/paul-erdos" target="_blank">My Erdős Number is 4.</a>
+<!-- - [My Erdős Number is 4](https://www.csauthors.net/distance/mohamed-khalid-m-jaffar/paul-erdos). -->
+
 
 ### Handy tools to make your workflow easier:
 - [LaTeX abstract extractor](http://tool.duruofei.com/abstract/)
@@ -36,3 +38,8 @@
 ### Cool reads and blog posts:
 - [Paul Graham: How to do great work](http://paulgraham.com/greatwork.html)
 - [The Awesomest 7-Year Postdoc](https://www.scientificamerican.com/blog/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/)
+
+### Beyond my professional pursuits
+- Photography
+- Travel
+- Film-making

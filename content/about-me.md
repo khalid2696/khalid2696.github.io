@@ -15,7 +15,7 @@ I am a PhD candidate at the University of Maryland, College Park, specializing i
 
 In my free time, I enjoy playing badminton, photography, and filmmaking. These hobbies allow me to express my creativity and maintain a balanced lifestyle outside of my academic pursuits.  
 
-Graduated from IIT Madras, summa cum laude. Though my university doesn't give an official title, I know I'm one because I had a class rank 1 in my batch.
+Graduated from IIT Madras, summa cum laude. Though my university doesn't give an official title, I know I'm one because I graduated top of my class.
 
 Feel free to reach out if you would like to discuss research collaborations or share insights in these areas!
 

@@ -87,10 +87,12 @@
     <!-- ***************************************************************************** -->
     <!-- ******************************** News ********************************** -->
     <!-- ***************************************************************************** -->
-  <!--      <div id="news"><a name="news"></a>
+        <!--      
+            <div id="news"><a name="news"></a>
             <div id="news-content"></div>
-        </div>
-        <hr>-->
+            </div>
+        <hr>
+        -->
 
     <!-- ***************************************************************************** -->
     <!-- ******************************** Research ********************************** -->
@@ -157,7 +159,19 @@
             </p>
             
             <h2>Experience</h2>
-			<div id="teaching-experience-content"></div>
+            <p>
+                I have been involved in teaching and mentoring students in various capacities, including as a lecturer, teaching assistant, and mentor. 
+                My teaching philosophy emphasizes hands-on learning and real-world applications of theoretical concepts.
+                I am currently a lecturer at the University of Maryland, College Park, where I teach the CAD Lab course. 
+                Previously, I served as a teaching assistant for the Fluid Mechanics/Gas Dynamics Lab and the Flight Controls and Simulation Lab at IIT Madras.
+            </p>
+            <div id="teaching-experience-content"></div>
+
+            <h2>Mentoring experience</h2>
+            <p> I have also been involved in mentoring undergraduate students on various projects, including the SAE AeroDesign competition and the IIT Madras Rocketry team. 
+                I enjoy working with students to help them develop their skills and knowledge in aerospace engineering and robotics.
+                I believe that mentorship is a two-way street, and I learn as much from my students as they do from me.
+            </p>
 
             <h2>Potential Future Course Offerings</h2>
             <div id="course-offerings-content"></div>
@@ -221,8 +235,8 @@
             }
 
             // Load the research experience content
-            loadHTML("./content/publications/journal-conferences.html", "journal-conferences-content");
-            loadHTML("./content/publications/workshops-posters.html", "workshops-posters-content");
+            loadHTML("./content/research/journal-conferences.html", "journal-conferences-content");
+            loadHTML("./content/research/workshops-posters.html", "workshops-posters-content");
 
             // Load the technical, applied projects content
             loadHTML("./content/applied-projects.html", "applied-projects-content");
@@ -231,6 +245,46 @@
             loadHTML("./content/teaching/teaching-experience.html", "teaching-experience-content");
             loadHTML("./content/teaching/course-offerings.html", "course-offerings-content");
         });
+    </script>
+
+    <!-- Script that gets to top of page when refresh is hit -->
+<!--    <script>
+        window.addEventListener("beforeunload", function () {
+            window.scrollTo(0, 0);
+        });
+    </script>-->
+
+
+    <button id="theme-toggle" style="position: fixed; top: 10px; right: 10px; z-index: 1000; background: none; border: none; cursor: pointer; font-size: 1.5rem;">
+        🌞
+    </button>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const toggleButton = document.getElementById("theme-toggle");
+        const body = document.body;
+
+        // Check for saved theme in localStorage
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark") {
+            body.classList.add("dark-mode");
+            toggleButton.textContent = "🌙"; // Set to moon icon for dark mode
+        }
+
+        // Toggle dark mode on button click
+        toggleButton.addEventListener("click", function () {
+            body.classList.toggle("dark-mode");
+
+            // Update the icon and save the theme to localStorage
+            if (body.classList.contains("dark-mode")) {
+                toggleButton.textContent = "🌙"; // Moon icon for dark mode
+                localStorage.setItem("theme", "dark");
+            } else {
+                toggleButton.textContent = "🌞"; // Sun icon for light mode
+                localStorage.setItem("theme", "light");
+            }
+        });
+    });
     </script>
 
 </body>
