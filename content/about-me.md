@@ -15,7 +15,7 @@ I am a PhD candidate at the University of Maryland, College Park, specializing i
 
 In my free time, I enjoy playing badminton, photography, and filmmaking. These hobbies allow me to express my creativity and maintain a balanced lifestyle outside of my academic pursuits.  
 
-Graduated from IIT Madras, summa cum laude. Though my university doesn't give an official title, I know I'm one because I graduated top of my class.
+Graduated from IIT Madras, summa cum laude. I graduated top of my class, and was awarded the medal for best overall academic record in Dual Degree Aerospace Engineering, 2013-18 batch.
 
 Feel free to reach out if you would like to discuss research collaborations or share insights in these areas!
 
