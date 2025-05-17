@@ -9,7 +9,28 @@
     <meta name="robots" content="index,follow">
     <meta name="description" content="Khalid M Jaffar's homepage">
     <meta name="keywords" content="Mohamed Khalid, M Jaffar, Khalid, Robotics, Autonomy, Motion Planning, Controls, Dynamical Systems, Control Theory, Aerospace Engineering">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for mobile friendliness-->
     <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+
+    <!--For SEO-->
+    <meta name="author" content="Khalid M Jaffar">
+    <meta property="og:title" content="Khalid M Jaffar - Robotics and Aerospace Engineering">
+    <meta property="og:description" content="Explore Khalid M Jaffar's research, projects, and teaching in robotics and aerospace engineering.">
+    <meta property="og:image" content="assets/img/profile.png">
+    <meta property="og:url" content="https://khalid2696.github.io/">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!--
+    <!~~ Google Analytics ~~>
+    <!~~ Get your tracking ID (e.g., G-XXXXXXXXXX). ~~>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    -->
 </head>
 
 
@@ -19,28 +40,34 @@
             <table border="0">
                 <tr>
                     <td width="400" align="center" valign="bottom">
-                        <img class="imageHeader" id="me" src="assets/img/profile.png" onmouseover="getRandomImage()" onmouseout="this.src='assets/img/profile.png';" alt="Khalid M Jaffar" border="0" width="245"/>
+                        <!--<img class="imageHeader" id="me" src="assets/img/profile.png" onmouseover="getRandomImage()" onmouseout="this.src='assets/img/profile.png';" alt="Khalid M Jaffar" border="0" width="245"/>-->
+                        <img class="imageHeader" id="me" src="assets/img/profile.png" alt="Khalid M Jaffar" border="0" width="245" height = "325">
                     </td>
                     <td width="450">
                         <h2>Khalid M Jaffar</h2>
                         <p>
                             PhD Candidate <br>
                             <a href="http://ottelab.com/html_stuff/lab.html" target="_blank">Motion and Teaming Lab</a><br>
-                            <a href="https://aero.umd.edu/" target="_blank">Department of Aerospace Engineering</a><br>
-                            <a href="https://umd.edu/" target="_blank">University of Maryland, College Park</a><br>
+                            Department of Aerospace Engineering<br>
+                            University of Maryland, College Park<br>
                         </p>
+                        <br>
                         <table border="0" cellpadding="0" cellspacing="0">
                             <tr>
                                 <td>e-mail: <b>khalid26</b> AT <b>umd.edu</b></td>
                             </tr>                      
-                            
+
+                            <tr>
+                                <td style="height: 20px;"></td> <!-- Add an empty row with height for spacing -->
+                            </tr>
                             
                             <tr>
                                 <td>
                                     [<a href="content/cv.pdf" target="_blank">CV</a>] 
-                                    [<a href="https://scholar.google.com/citations?user=Clnud_MAAAAJ&hl=en" target="_blank">Google Scholar</a>] 
                                     [<a href="https://www.linkedin.com/in/mohamed-khalid-24720690/" target="_blank">LinkedIn</a>] 
-                                    [<a href="https://orcid.org/0000-0003-2576-857X" target="_blank">ORCID</a>]
+                                    [<a href="https://scholar.google.com/citations?user=Clnud_MAAAAJ&hl=en" target="_blank">Google Scholar</a>]
+                                    [<a href="https://github.com/khalid2696/" target="_blank">GitHub</a>]  
+                                    <!-- [<a href="https://orcid.org/0000-0003-2576-857X" target="_blank">ORCID</a>] -->
                                 </td>
                             </tr>
                         </table>
@@ -247,7 +274,10 @@
         });
     </script>
 
-    <script src="assets/js/img_hover.js"></script>
+    <!-- Hover/click effects for the profile image -->
+    <script src="assets/js/profile-img_hover.js"></script>
+
+    <!-- Hover/click effects for the project gif thumbnails -->
     <script src="assets/js/gif_display_hover-click.js"></script>
 
     <!-- Script that gets to top of page when refresh is hit -->
@@ -262,34 +292,7 @@
     background: none; border: none; cursor: pointer; font-size: 2.5rem;">
         🌞
     </button>
-
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const toggleButton = document.getElementById("theme-toggle");
-        const body = document.body;
-
-        // Check for saved theme in localStorage
-        const savedTheme = localStorage.getItem("theme");
-        if (savedTheme === "dark") {
-            body.classList.add("dark-mode");
-            toggleButton.textContent = "🌙"; // Set to moon icon for dark mode
-        }
-
-        // Toggle dark mode on button click
-        toggleButton.addEventListener("click", function () {
-            body.classList.toggle("dark-mode");
-
-            // Update the icon and save the theme to localStorage
-            if (body.classList.contains("dark-mode")) {
-                toggleButton.textContent = "🌙"; // Moon icon for dark mode
-                localStorage.setItem("theme", "dark");
-            } else {
-                toggleButton.textContent = "🌞"; // Sun icon for light mode
-                localStorage.setItem("theme", "light");
-            }
-        });
-    });
-    </script>
+    <script src="assets/js/toggle_light-dark-theme.js"></script>
 
 </body>
 
