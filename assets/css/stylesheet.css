@@ -135,3 +135,40 @@ body.dark-mode {
 .highlighted-text {
     color: var(--highlight-text-color);
 }
+
+/* For hover/click display of gifs */
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 250px; /* Ensure the container has the same width as the images */
+    height: 250px; /* Ensure the container has the same height as the images */
+    overflow: hidden; /* Prevent any overflow from the images */
+    box-sizing: border-box; /* Include borders and padding in the container's dimensions */
+}
+
+.image.static,
+.image.gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure both images fill the container */
+    height: 100%; /* Ensure both images fill the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+	box-sizing: border-box; /* Include borders and padding in the element's dimensions */
+	border-width: 1pt;
+    border-style: inset;
+    border-color: black;
+    padding: 3pt;
+}
+
+.image.gif {
+    display: none; /* Hide the GIF by default */
+}
+
+.image-container:hover .static {
+    display: none; /* Hide the static image on hover */
+}
+
+.image-container:hover .gif {
+    display: block; /* Show the GIF on hover */
+}
