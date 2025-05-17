@@ -2,7 +2,9 @@
 
 function getRandomImage() {
     const images = [
-        'img/profile-fun1.png',
+        'assets/img/profile-fun1.png',
+        'assets/img/profile-fun2.png',
+        //'assets/img/profile-fun3.png',
         // Add more fun images here if needed
     ];
     const randomIndex = Math.floor(Math.random() * images.length);

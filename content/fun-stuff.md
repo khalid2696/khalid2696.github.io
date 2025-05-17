@@ -10,19 +10,17 @@
 
 
 ### Handy tools to make your workflow easier:
-- [LaTeX abstract extractor](http://tool.duruofei.com/abstract/)
-- [Bibtex cleaning tool](https://flamingtempura.github.io/bibtex-tidy/)
-- [Poster templates](content/misc/poster_templates.zip)
-- [Color scheme resource](https://colorbrewer2.org/) (although you should note that I'm color blind XD)
+- <a href="http://tool.duruofei.com/abstract/" target="_blank">LaTeX abstract extractor</a>
+- <a href="https://flamingtempura.github.io/bibtex-tidy/" target="_blank">Bibtex cleaning tool</a>
+- <a href="content/misc/poster_templates.zip" target="_blank">Poster templates</a>
+- <a href="https://colorbrewer2.org/" target="_blank">Color scheme resource (although you should note that I'm color blind XD)</a>
 
-### Useful academic resources:
-- [How to read a paper -- Opens in the same tab](content/mirrors/HowtoReadPaper.pdf) 
-- [How to read a paper -- Tries to open in new tab (buggy)](content/mirrors/HowtoReadPaper.pdf){:class="new-tab"}
-- <a href="content/mirrors/HowtoReadPaper.pdf" target="_blank">How to read a paper -- Opens in a new tab (HTML way instead of markdown) </a> <!--This opens in a new tab, and the above one doesn't -->
-- Sitting down to write, chapter from 'The Craft of Scientific Writing' by Michael Alley.
-- [How to organize a presentation](http://www.tkim.graphics/HOWTOTALK/HowToTalk.pdf)
-- [10 tips for academic talks](https://matt.might.net/articles/academic-presentation-tips/)
-- [Dr. Svetlana Yarosh's PhD Guide](https://docs.google.com/document/d/1Kc4AUlhtgrO8_oDrs9IqO40OEMe7HQM_ShQHyLNwlBQ/edit?tab=t.0)
+### Useful academic resources: 
+- <a href="content/mirrors/HowtoReadPaper.pdf" target="_blank">How to read a paper</a>
+- <a href="content/mirrors/SittingDowntoWrite.pdf" target="_blank">Sitting down to write, chapter from 'The Craft of Scientific Writing' by Michael Alley</a>
+- <a href="http://www.tkim.graphics/HOWTOTALK/HowToTalk.pdf" target="_blank">How to organize a presentation</a>
+- <a href="https://matt.might.net/articles/academic-presentation-tips/" target="_blank">10 tips for academic talks</a>
+- <a href="https://docs.google.com/document/d/1Kc4AUlhtgrO8_oDrs9IqO40OEMe7HQM_ShQHyLNwlBQ/edit?tab=t.0" target="_blank">Dr. Svetlana Yarosh's PhD Guide</a>
 <!-- - [Guide to Postdoc](https://ubadahsabbagh.com/guide-to-postdoc.php) -->
 <!--<li>For a career in academia:</li>
     <ul> 
@@ -36,10 +34,5 @@
 
 
 ### Cool reads and blog posts:
-- [Paul Graham: How to do great work](http://paulgraham.com/greatwork.html)
-- [The Awesomest 7-Year Postdoc](https://www.scientificamerican.com/blog/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/)
-
-### Beyond my professional pursuits
-- Photography
-- Travel
-- Film-making
+- <a href="http://paulgraham.com/greatwork.html" target="_blank">Paul Graham: How to do great work</a>
+- <a href="https://www.scientificamerican.com/blog/guest-blog/the-awesomest-7-year-postdoc-or-how-i-learned-to-stop-worrying-and-love-the-tenure-track-faculty-life/" target="_blank">The Awesomest 7-Year Postdoc</a>

@@ -28,3 +28,8 @@ You can also connect with me through my professional profiles:
 - [ORCID](https://orcid.org/0000-0003-2576-857X)
 
 Feel free to contact me regarding research collaborations, job opportunities, or any other questions you may have!
+
+### Beyond my professional pursuits
+- Photography
+- Travel
+- Film-making
