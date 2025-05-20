@@ -1,0 +1,174 @@
+
+@charset "ISO-8859-1";
+
+* {
+	/* font-family: Times New Roman; */
+	font-family: Arial;
+}
+
+a:link{
+	text-decoration:none; 
+	color: #0505e6ea;
+	}
+a:visited{
+	text-decoration:none;
+	/*color: #0066AA;*/
+	color: #0505e6ea; /*#0000FF;*/
+
+	}
+a:active{
+	text-decoration:none;
+	}
+a:hover{
+	color: #0056b3; /* Change color on hover */
+	text-decoration:underline;
+	}
+
+a.new-tab::after {
+    content: " ↗";
+    font-size: 0.8em;
+    color: #555;
+}
+
+#main {
+	width: 650pt;
+	margin: auto;
+}
+
+.image{
+	border-width:1pt;
+	border-style:inset;
+	border-color:black;
+	padding:3pt;
+}
+
+.imageHeader{
+	border-width:1pt;
+	border-style:inset;
+	border-color:black;
+	padding:0pt;
+}
+
+
+.links{
+	word-spacing: 10pt;
+	margin-top:2pt;
+	margin-bottom:0pt;
+}
+
+.mainlinks{
+	word-spacing: 5pt;
+	margin-top:2pt;
+	margin-bottom:0pt;
+	text-align:center;
+	font-size:150%;
+}
+
+#cv {
+	width: 650pt;
+	margin: auto;
+}
+
+#class807 {
+	width: 650pt;
+	margin: auto;
+}
+
+#mocap {
+	width: 650pt;
+	margin: auto;
+}
+
+#publications {
+	width: 650pt;
+	margin: auto;
+}
+
+
+/* Light Mode (default) */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* Optional: Adjust other elements for dark mode */
+a {
+    color: blue;
+}
+body.dark-mode a {
+    color: lightblue;
+}
+
+/* Define theme-specific variables */
+:root {
+    --highlight-bg: #ffffd0; /* Light mode background */
+    --highlight-text: black; /* Light mode text color */
+}
+
+body.dark-mode {
+    --highlight-bg: #444444; /* Dark mode background */
+    --highlight-text: white; /* Dark mode text color */
+}
+
+/* Apply the variables */
+td.highlighted {
+    background-color: var(--highlight-bg);
+    color: var(--highlight-text);
+}
+
+/* Define theme-specific variables */
+:root {
+    --highlight-text-color: red; /* Default color for light mode */
+}
+
+body.dark-mode {
+    --highlight-text-color: orange; /* Adjusted color for dark mode */
+}
+
+/* Apply the variable */
+.highlighted-text {
+    color: var(--highlight-text-color);
+}
+
+/* For hover/click display of gifs */
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 250px; /* Ensure the container has the same width as the images */
+    height: 250px; /* Ensure the container has the same height as the images */
+    overflow: hidden; /* Prevent any overflow from the images */
+    box-sizing: border-box; /* Include borders and padding in the container's dimensions */
+}
+
+.image.static,
+.image.gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure both images fill the container */
+    height: 100%; /* Ensure both images fill the container */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+	box-sizing: border-box; /* Include borders and padding in the element's dimensions */
+	border-width: 1pt;
+    border-style: inset;
+    border-color: black;
+    padding: 3pt;
+}
+
+.image.gif {
+    display: none; /* Hide the GIF by default */
+}
+
+.image-container:hover .static {
+    display: none; /* Hide the static image on hover */
+}
+
+.image-container:hover .gif {
+    display: block; /* Show the GIF on hover */
+}
