@@ -1,10 +1,10 @@
-# Project Title: Khalid M Jaffar's Personal Website
+# Khalid M Jaffar's Personal Website
 
 ## Overview
-This project is a personal website for Khalid M Jaffar, a PhD candidate at the University of Maryland, College Park. The website showcases his research, publications, teaching, and personal interests.
+This project is for hosting my personal website, showcasing my research, publications, teaching, and personal interests.
 
 ## Project Structure
-The project is organized into the following directories and files:
+The repo is organized into the following directories and files:
 
 - **assets/**: Contains all static assets including CSS, images, and JavaScript files.
   - **css/**: Stylesheets for the website.
