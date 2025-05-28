@@ -2,11 +2,11 @@
 
 I’m a PhD candidate in Robotics, working at the intersection of autonomy, motion planning, and control theory. My research focuses on building intelligent robots that can make decisions autonomously and navigate reliably through complex, dynamic environments. I'm a first-principles thinker drawn to solving real-world problems through a mix of mathematical rigor and hands-on robotics.
 
-Before starting my PhD at UMD, I earned my Bachelors and Masters in Aerospace Engineering from IIT Madras, graduating _summa cum laude_ at the top of my class. I was awarded the institute medal for the best overall academic record in the 2013-18 AE batch.
+Before starting my PhD at UMD, I earned my Bachelors and Masters in Aerospace Engineering from IIT Madras, graduating _summa cum laude_ at the top of my class. I was awarded the institute medal for best overall academic record in the 2013-18 AE batch.
 
 Outside my professional pursuits, I enjoy playing badminton, photography, and filmmaking &ndash; creative outlets that help me be active, grounded, and curious.
 
-Feel free to reach out if you're interested in collaborating, hiring, or just chatting about robotics, autonomy, or motion control. I’m always open to new ideas and opportunities!
+Feel free to reach out if you're interested in collaborating, hiring, or just chatting about robotics, autonomy, or motion control. I’m open to new ideas and opportunities!
 
 
 <!-- I am a PhD candidate at the University of Maryland, College Park, specializing in Robotics, Autonomy, Motion Planning, and Dynamical Systems and Control Theory. My research focuses on developing innovative solutions in these fields, aiming to enhance the capabilities of autonomous systems. -->
