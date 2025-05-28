@@ -54,4 +54,4 @@ This project is designed to be easily modifiable. You can:
 This project is open-source and can be modified or redistributed under the terms of the MIT License.
 
 ## Credits
-If you find this codebase useful and use it for your own website design, consider giving credit as "Website format adapted from [Khalid M Jaffar](https://khalid2696.github.io/)"
+If you find this codebase useful and use it for designing your own website, consider giving credit as "Website format adapted from [Khalid M Jaffar](https://khalid2696.github.io/)" in your homepage footer. Would mean a lot to me :)
