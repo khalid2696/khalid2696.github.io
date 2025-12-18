@@ -11,7 +11,7 @@
         </td> 
         
         <td class="highlighted">
-        <b>Highligted Paper title</b><br>
+        <b>Highlighted Paper title</b><br>
         <strong>Mohamed Khalid M Jaffar</strong>, <a href="co-author 1 homepage">co-author 1</a>, <a href="co-author 2 homepage">co-author 2</a><br>
         <i>Journal name/Conference venue</i>, 20XX <br>
         <i>Optional -- proceedings name or &nbsp <span class="highlighted-text"><strong>Best Paper Award Consideration</strong></span> </i>
@@ -102,9 +102,10 @@
         [<a href="doi link">DOI</a>]-->
         </p>
         <br>
-
-        This algorithm for quadruped robots uses cross attention to fuse terrain representations derived from visual and proprioceptive inputs for gait adjustment. 
-        The cross-attention mechanism selects and integrates the most relevant features from each modality to adaptively adjust the robot's gait in response to varying terrains such as asphalt, grass, dense vegetation, gravel, and sand. 
+        Presents a cross-attention algorithm for quadruped robots that fuses visual and proprioceptive data to adaptively adjust gait on diverse terrains: asphalt, grass, dense vegetation, gravel, and sand.
+        
+        <!-- This algorithm for quadruped robots uses cross attention to fuse terrain representations derived from visual and proprioceptive inputs for gait adjustment. 
+        The cross-attention mechanism selects and integrates the most relevant features from each modality to adaptively adjust the robot's gait in response to varying terrains such as asphalt, grass, dense vegetation, gravel, and sand.  -->
         </td>
     </tr> <!--end of entry-->
 
@@ -133,12 +134,7 @@
 
         This work proposes nonlinear control policies for position tracking in quadrotors that have lost one, two-opposite, or even three rotors. 
         The strategy is to control the axis about which the faulty vehicle spins, referred to as reduced attitude, and tilt this axis to steer the post-fault vehicle towards the desired position. 
-        <!--The controller has a cascaded structure, with a linear control law for position and a nonlinear dynamic inversion-based controller for tracking the reduced attitude. This paper presents a complete failsafe framework that can seamlessly switch control policies depending on the number of functional rotors in a quadrotor. 
-        -->
         A key contribution of this work is its motion control strategy to safely land a quadrotor with just one functional rotor.
-        <!--Relaxed hover conditions are states in which the quadrotor is in periodic equilibria, almost holding position and height. The proposed fault-tolerant control strategies are validated in simulations with a higher-fidelity verification model. Monte-Carlo rollouts are run to empirically verify the stabilization and tracking performance of the proposed controllers. 
-        Numerical results of the failsafe quadrotor performing waypoint navigation and trajectory tracking despite rotor failure(s) are presented.
-        -->
     </td>
     </tr> <!--end of HIGHLIGHTED entry-->
 
@@ -161,12 +157,10 @@
         [<a href="doi link">DOI</a>]-->
         </p>
         <br>
-
-        To make mobile robots capable of handling diverse terrain conditions, this work uses vision-language models (VLMs) integrated with physical grounding to assess terrains' intrinsic properties such as deformability and slipperiness.         
+        Integrates vision-language models (VLMs) with proprioceptive sensing to estimate terrain properties such as deformability and slipperiness, enabling robust outdoor robot navigation.
+        <!-- To make mobile robots capable of handling diverse terrain conditions, this work uses vision-language models (VLMs) integrated with physical grounding to assess terrains' intrinsic properties such as deformability and slipperiness.         
         It uses proprioceptive-based sensing to estimate the terrain's physical properties,
-        <!--Our formulation uses in-context learning to ground the VLM’s semantic understanding with proprioceptive data to allow dynamic updates of traversability estimates based on the robot’s real-time physical interactions with the environment. 
-        -->
-        and those subsequently inform both the local and global planners for real-time trajectory replanning.
+        and those subsequently inform both the local and global planners for real-time trajectory replanning. -->
     </tr> <!--end of entry-->
     
 
@@ -188,17 +182,12 @@
         </p>
         <br>
 
-        This work leverages Vision Language Models (VLMs) for autonomous robot navigation in outdoor scenes guided by human instructions. 
+        Uses vision-language and large language models (LLMs) to interpret human instructions and generate behavioral cost maps, guiding autonomous robot navigation in dynamic outdoor spaces.
+        Employs an unconstrained MPC planner to enable robots to follow both navigation goals and nuanced behavioral guidelines.
+        <!-- This work leverages Vision Language Models (VLMs) for autonomous robot navigation in outdoor scenes guided by human instructions. 
         Human commands are interpreted using LLMs and categorized into navigation instructions and behavioral guidelines. 
-        <!--Navigation guidelines consist of directional commands (e.g., "move forward until") and associated landmarks (e.g., "the building with blue windows"), while behavioral guidelines encompass regulatory actions (e.g., "stay on") and their corresponding objects (e.g., "pavements"). 
-        We use VLMs for their zero-shot scene understanding capabilities to estimate landmark locations from RGB images for robot navigation. 
-        -->
-        <!--Further, we introduce a novel scene representation that utilizes VLMs to ground behavioral rules into 
-         
-        This cost map encodes the presence of behavioral objects within the scene and assigns costs based on their regulatory actions. 
-        -->
         Based on the guidelines, a behavioral cost map is computed and integrated with the occupancy map for navigation. 
-        To navigate in dynamic outdoor settings, an unconstrained MPC-based planner that prioritizes both reaching landmarks and following behavioral guidelines is used. 
+        To navigate in dynamic outdoor settings, an unconstrained MPC-based planner that prioritizes both reaching landmarks and following behavioral guidelines is used.  -->
         </td>
     </tr> <!--end of entry-->
 
@@ -225,14 +214,10 @@
         </p>
         <br>
 
-        We combine the canonical problem of stabilizing an inverted pendulum with quadcopter trajectory tracking to study the control of 'flying inverted pendulum'. 
-        <!--Traditional nonlinear model-predictive controllers (MPC) have proved effective for both agile quadcopter maneuvers as well as inverted pendulum stabilization. 
-        However, due to its model-based nature, the feedback system suffers significant loss in performance under modelling uncertainties and external disturbances. 
-        -->
-        This work presents an adaptive model-predictive controller strategy: a nominal nonlinear MPC is augmented with an L1 adaptive controller that enables fast adaptation to modeling uncertainties &ndash; parameter mismatches in particular.
-        <!--Experiments are conducted in simulation to validate the performance of the control laws in practice compared to existing control techniques.
-        --> 
-
+        Augments a nonlinear MPC with an L1 adaptive controller to stabilize an inverted pendulum on a quadcopter during trajectory tracking.
+        Achieves robust performance under modeling uncertainties and parameter mismatches.
+        <!-- We combine the canonical problem of stabilizing an inverted pendulum with quadcopter trajectory tracking to study the control of 'flying inverted pendulum'. 
+        This work presents an adaptive model-predictive controller strategy: a nominal nonlinear MPC is augmented with an L1 adaptive controller that enables fast adaptation to modeling uncertainties &ndash; parameter mismatches in particular.  -->
     </td>
     </tr> <!--end of HIGHLIGHTED entry-->
 
@@ -254,9 +239,9 @@
         </p>
         <br>
 
-        This paper presents a study on the development and experimental validation of an advanced air brake system for a sounding rocket. 
-        The primary objective of the air brake is to effectively modulate drag during the coast phase through a closed-loop feedback loop, thereby enabling apogee control. 
-        To achieve this, an EKF-based state-estimation scheme and a model predictive controller (MPC) are developed, tested, and experimentally validated. 
+        Presents a study on the development and experimental testing of an air brake system for a sounding rocket. 
+        The primary objective is to achieve apogee control via drag modulation. 
+        Employs EKF-based state estimation and model predictive controller (MPC) in a feedback control loop. 
         </td>
     </tr> <!--end of HIGHLIGHTED entry-->
 
@@ -279,13 +264,13 @@
         [<a href="doi link">DOI</a>]-->
         </p>
         <br>
-
-        In this study, we focus on training a low-level controller using reinforcement learning (RL) that operates
+        Trains a reinforcement learning-based low-level controller for quadrotors that adapts to dynamic changes without prior parameter knowledge, using recurrent neural networks (RNNs).
+        <!-- In this study, we focus on training a low-level controller using reinforcement learning (RL) that operates
         in response to dynamics changes without <i>a priori</i> knowledge or
         fine-tuning of the parameters. The quadrotor dynamics is randomized in simulator and
         the policy is trained on dynamics information extracted from
         the state-action history through recurrent neural networks
-        (RNNs). Additionally, our experiments demonstrate shortcomings of applying actor-critic architecture that use end-to-end RNNs, for the specific case of uncertain dynamics.
+        (RNNs). Additionally, our experiments demonstrate shortcomings of applying actor-critic architecture that use end-to-end RNNs, for the specific case of uncertain dynamics. -->
     </td>
     </tr> <!--end of entry-->
 
@@ -342,13 +327,12 @@
         </p>
         <br>
 
-        We compare the performance of five state of the art decentralized task allocation algorithms under imperfect communication conditions. 
+        Compares five state-of-the-art task allocation algorithms for multi-agent systems under <i>imperfect communication</i>, highlighting trade-offs in performance and robustness.
+        Algorithms considered: CBAA, ACBBA, DHBA, HIPC, and PI. Communication models include Bernoulli, Gilbert-Elliot, and Rayleigh Fading.
+        <!-- We compare the performance of five state of the art decentralized task allocation algorithms under imperfect communication conditions. 
         The decentralized algorithms we consider are CBAA, ACBBA, DHBA, HIPC and PI. 
-        All algorithms are evaluated using three different models of communication, including the Bernoulli model, the Gilbert-Elliot model, and the Rayleigh Fading model. 
-        <!--All 15 of the resulting combinations of an algorithm with a communication model are evaluated in two different problem scenarios: 
-        (1) Collaborative visit, a scenario in which the agents have to collaboratively visit known stationary targets. (2) Collaborative search and visit, a scenario in which the agents have to collaboratively search for and then visit unknown stationary target locations. Each algorithm is evaluated in each scenario using two performance measures: (1) the maximum distance traveled by any agent (2) the maximum number of messages sent by any agent. 
-        Real-time experimental simulations show the trade-offs that exists between these five algorithms at different communication conditions.-->
-    </td>
+        All algorithms are evaluated using three different models of communication, including the Bernoulli model, the Gilbert-Elliot model, and the Rayleigh Fading model.  -->
+        </td>
     </tr> <!--end of entry-->
 
     <tr> <!--start of HIGHLIGHTED entry-->
@@ -371,9 +355,11 @@
         </p>
         <br>
 
-        In this paper we propose a cascaded approach for the full control of a quadrotor operating in indoor spaces. 
+        Proposes a cascaded nonlinear control approach for robust quadrotor flight in indoor environments.
+        Compares against PI-PID, Backstepping, and Sliding Mode Control (SMC) through simulations and test-bench experiments under external disturbances. 
+        <!-- In this paper we propose a cascaded approach for the full control of a quadrotor operating in indoor spaces. 
         Sliding mode controller with a saturation function is applied to achieve robust attitude tracking performance without control chattering. 
-        The robustness and effectiveness of the proposed control law are validated through simulations and experiments under external disturbances. 
+        The robustness and effectiveness of the proposed control law are validated through simulations and experiments under external disturbances.  -->
         </td>
     </tr> <!--end of HIGHLIGHTED entry-->
 
