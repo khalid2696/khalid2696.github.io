@@ -62,23 +62,25 @@
         
         <!--<td style="background-color:#ffffd0"> -->
         <td class="highlighted">
-        <b>Numerically computing safe, invariant sets for general dynamical systems using SOS programming</b><br>
-        <strong>Mohamed Khalid M Jaffar</strong>, Michael Otte<br>
-        <i>in preparation for Letters in Control Systems (L-CSS)</i> <br>
+        <b><code>computeSOSFunnels</code>: A MATLAB Framework for Invariant Funnel Synthesis using Sum-of-Squares Optimization</b><br>
+        <strong>Mohamed Khalid M Jaffar</strong><br>
+        <i>in preparation for Journal of Open Source Software (JOSS)</i> <br>
         <p class="links">
-        [<a href="">Paper in preparation</a>]
+        [<a href="https://github.com/khalid2696/computeSOSFunnels" target="_blank">Software Release</a>]
+        [<a href="content/research/manuals/computeSOSFunnels_Tutorial.pdf" target="_blank">User Guide</a>]
 <!--        [<a href="">arXiv coming soon!</a>]-->
 <!--        [<a href="https://khalid2696.github.io/SOSFunnels/" target="_blank">Project Page</a>]
 --><!--        [<a href="">Video coming soon!</a>]-->
-        <!--[<a href="https://github.com/khalid2696/computeSOSFunnels" target="_blank">Code</a>]-->
-<!--        [<a href="bibtex entry">Bibtex</a>]
+        <!--        [<a href="bibtex entry">Bibtex</a>]
         [<a href="doi link">DOI</a>]-->
         </p>
         <br>
 
-        Funnels are finite-time invariant sets, quite useful in feedback motion planning to certify stability, and hence ensuring safety and reliability.
+        Computes finite-time invariant sets, <i>funnels</i> for nonlinear systems using Lyapunov theory and Sum-of-Squares (SOS) programming.
+        Provides safety and stability guarantees, relevant in verified motion planning.
+        <!-- Funnels are finite-time invariant sets, quite useful in feedback motion planning to certify stability, and hence ensuring safety and reliability.
         This work aims to compute funnels for nonlinear dynamical systems using Lyapunov theory and semi-algebraic programming. 
-        For systems with polynomial vector fields, it leverages sum-of-squares (SOS) programming, leading to computational efficiency.
+        For systems with polynomial vector fields, it leverages sum-of-squares (SOS) programming, leading to computational efficiency. -->
 
     </td>
     </tr> <!--end of HIGHLIGHTED entry-->
@@ -132,9 +134,13 @@
         </p>
         <br>
 
-        This work proposes nonlinear control policies for position tracking in quadrotors that have lost one, two-opposite, or even three rotors. 
+        Proposes nonlinear, geometric control laws for quadrotors to maintain position tracking despite rotor failure(s). 
+        Introduces a novel motion control strategy to safely land a quadrotor with just one functional rotor.
+        <!-- Presents a reduced-attitude control approach for robust post-failure maneuvering. -->
+        
+        <!-- This work proposes nonlinear control policies for position tracking in quadrotors that have lost one, two-opposite, or even three rotors. 
         The strategy is to control the axis about which the faulty vehicle spins, referred to as reduced attitude, and tilt this axis to steer the post-fault vehicle towards the desired position. 
-        A key contribution of this work is its motion control strategy to safely land a quadrotor with just one functional rotor.
+        A key contribution of this work is its motion control strategy to safely land a quadrotor with just one functional rotor. -->
     </td>
     </tr> <!--end of HIGHLIGHTED entry-->
 
@@ -288,8 +294,8 @@
         <td class="highlighted">
         <b>PiP-X: Funnel-Based Online Feedback Motion Planning/Replanning in Dynamic Environments</b><br>
         <strong>Mohamed Khalid M Jaffar</strong>, Michael Otte<br>
-        <i>Workshop on the Algorithmic Foundations of Robotics</i>, WAFR 2022 <br>
-        Also appears as a book chapter in <i>Springer Proceedings in Advanced Robotics</i> &nbsp <span class="highlighted-text"><strong>Best Paper Award Consideration</strong></span>
+        <i>World Symposium on Algorithmic Foundations of Robotics</i>, WAFR 2022 <br>
+        <span class="highlighted-text"><strong>Best Paper Award Consideration</strong></span> &mdash; also appears as a book chapter in <i>Springer Proceedings in Advanced Robotics</i>, 2023
         <p class="links">
         [<a href="https://link.springer.com/chapter/10.1007/978-3-031-21090-7_9" target="_blank">Book chapter</a>]
         [<a href="https://arxiv.org/abs/2202.00772" target="_blank">arXiv</a>]
@@ -302,9 +308,11 @@
         </p>
         <br>
 
-        We introduce an online sampling-based feedback motion re-planning algorithm using finite-time invariant sets &ndash; 'funnels'. 
+        Introduces a unified framework that represents funnel networks as graphs, enabling fast feedback motion planning for mobile robots in dynamic workspaces.
+        Combines Lyapunov analysis, sampling-based motion planning, and graph search to ensure real-time replanning. 
+        <!-- We introduce an online sampling-based feedback motion re-planning algorithm using finite-time invariant sets &ndash; 'funnels'. 
         This work combines concepts from nonlinear systems analysis, sampling-based motion planning, and graph-search to create a single framework that enables motion planning/replanning for general nonlinear systems in a dynamic workspace. 
-        One of the key contributions is a graph data structure to represent a network of volumetric funnels, enabling the use of D*Lite for quick graph rewiring in response to changes in obtacle space. 
+        One of the key contributions is a graph data structure to represent a network of volumetric funnels, enabling the use of D*Lite for quick graph rewiring in response to changes in obtacle space.  -->
     </td>
     </tr> <!--end of HIGHLIGHTED entry-->
 

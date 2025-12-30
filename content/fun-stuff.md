@@ -2,7 +2,7 @@
 
 ### Random blurbs about me:
 - Before getting serious in my academic career, I was a lifestyle photographer and indie short filmmaker.
-- I follow Manchester United, Chennai Super Kings, and Australian Test cricket.
+- I follow Manchester United, Baltimore Ravens, and Australian Test cricket.
 - I used to crack Math Olympiads during high school.
 - <a href="https://www.csauthors.net/distance/mohamed-khalid-m-jaffar/paul-erdos" target="_blank">My Erdős Number is 4.</a>
 <!-- - Foreword to biography of young Khalid (if that ever happens) -- as written by my undergrad hostel mates. -->
