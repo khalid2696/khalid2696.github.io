@@ -13,7 +13,7 @@
 - <a href="http://tool.duruofei.com/abstract/" target="_blank">LaTeX abstract extractor</a>
 - <a href="https://flamingtempura.github.io/bibtex-tidy/" target="_blank">Bibtex cleaning tool</a>
 - <a href="content/misc/poster_templates.zip" target="_blank">Poster templates</a>
-- <a href="https://colorbrewer2.org/" target="_blank">Color scheme resource (although you should note that I'm color blind XD)</a>
+- <a href="https://colorbrewer2.org/" target="_blank">Color scheme resource</a> (although you should note that I'm color blind XD)
 
 ### Useful academic resources: 
 - <a href="content/mirrors/HowtoReadPaper.pdf" target="_blank">How to read a paper</a>
