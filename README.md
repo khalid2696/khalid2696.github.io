@@ -45,16 +45,12 @@ The repository is organized as follows:
 - **Interactive Profile Image:** Profile image changes on hover/click.
 - **Responsive Design:** Mobile-friendly and adapts to all screen sizes.
 
-## Adapting This Website
-This template is open-source and intended for reuse!  
-If you adapt or build upon this website, please consider crediting the original format as follows (for example, in your site footer):
+## Adapting This Website and Credits
+This template is open-source and intended for reuse! If you adapt or build upon this website, please consider crediting the original format as follows (for example, in your site footer):
 
 > Website format adapted from [Khalid M Jaffar](https://khalid2696.github.io/)
 
-Your acknowledgment would be very much appreciated!
+Your acknowledgment and mention would mean a lot!
 
 ## License
-This project is licensed under the MIT License. You are free to use, modify, and redistribute it.
-
-## Credits
-If you find this template helpful, a mention or link back would mean a lot!
+This project is licensed under the MIT License. You are free to use, modify, and redistribute it. 
