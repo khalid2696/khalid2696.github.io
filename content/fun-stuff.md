@@ -17,7 +17,7 @@
 
 ### Useful academic resources: 
 - <a href="content/mirrors/HowtoReadPaper.pdf" target="_blank">How to read a paper</a>
-- <a href="content/mirrors/SittingDowntoWrite.pdf" target="_blank">Sitting down to write, chapter from 'The Craft of Scientific Writing' by Michael Alley</a>
+- <a href="content/mirrors/SittingDowntoWrite.pdf" target="_blank">Sitting down to write</a>, a chapter from '<i>The Craft of Scientific Writing</i>' by Michael Alley
 - <a href="http://www.tkim.graphics/HOWTOTALK/HowToTalk.pdf" target="_blank">How to organize a presentation</a>
 - <a href="https://matt.might.net/articles/academic-presentation-tips/" target="_blank">10 tips for academic talks</a>
 <!-- - <a href="https://docs.google.com/document/d/1Kc4AUlhtgrO8_oDrs9IqO40OEMe7HQM_ShQHyLNwlBQ/edit?tab=t.0" target="_blank">Dr. Svetlana Yarosh's PhD Guide</a> -->
