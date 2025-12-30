@@ -171,7 +171,7 @@ body.dark-mode {
     display: block; /* Show the GIF on hover */
 }
 
-code {
+/* code {
     background-color: #f5f5f5;
     padding: 2px 6px;
     border-radius: 4px;
@@ -180,8 +180,7 @@ code {
     color: #c7254e;
 }
 
-/* Optional: Dark mode support for code blocks */
 body.dark-mode code {
     background-color: #222;
     color: #ffb86c;
-}
+} */
