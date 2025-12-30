@@ -1,57 +1,60 @@
 # Khalid M Jaffar's Personal Website
 
 ## Overview
-This project is for hosting my personal website, showcasing my research, publications, teaching, and personal interests.
+This repository contains the source code for my personal website, which showcases my research, publications, teaching, projects, and interests. The site is designed to be easily adapted by others for their own academic or professional portfolios.
 
 ## Project Structure
-The repo is organized into the following directories and files:
+The repository is organized as follows:
 
-- **assets/**: Contains all static assets including CSS, images, and JavaScript files.
-  - **css/**: Stylesheets for the website.
-    - `stylesheet.css`: Defines the layout, colors, fonts, and other visual aspects of the website.
-  - **img/**: Images used throughout the website.
-    - `favicon-16x16.png`: Favicon displayed in the browser tab.
-    - `profile.png`: Main profile image.
-    - `profile-fun1.png`, `profile-fun2.png`, etc.: Alternate profile images for hover and click effects.
-  - **js/**: JavaScript files for interactive features.
-    - `img_hover.js`: Handles hover and click effects for the profile image.
-    - `theme_toggle.js`: Manages light/dark mode toggle functionality.
+- **assets/**: Static assets for the website.
+  - **css/**: Stylesheets (e.g., `stylesheet.css` for layout, colors, and fonts).
+  - **img/**: Images (profile pictures, favicons, etc.).
+  - **js/**: JavaScript files for interactivity (e.g., image hover effects, theme toggling).
 
-- **content/**: Contains markdown and HTML files for different sections of the website.
-  - `about-me.md`: Content for the "About Me" section.
-  - `fun-stuff.md`: Content for the "Fun Stuff" section.
-  - **cv.pdf**: Khalid M Jaffar's CV.
-  - **research/**: Contains HTML files for research-related content.
-    - `journal-conferences.html`: Lists journal and conference publications.
-    - `workshops-posters.html`: Lists workshop papers and posters.
-  - **projects/**: Contains HTML files for project-related content.
-    - `applied-projects.html`: Lists applied engineering projects with technical reports and documentation.
-  - **teaching/**: Contains HTML files for teaching-related content.
-    - `teaching-experience.html`: Details teaching experience and courses taught.
-  - **mirrors/**: Cached useful academic resources in PDF format.
-  - **misc/**: Contains additional resources.
+- **content/**: Main content for the website.
+  - Markdown and HTML files for each section (about, research, projects, teaching, etc.).
+  - **research/**: Journal/conference publications and workshop/poster listings.
+  - **projects/**: Applied engineering projects and documentation.
+  - **teaching/**: Teaching experience and course details.
+  - **mirrors/**: Useful academic resources (PDFs).
+  - **misc/**: Additional resources.
 
-- **index.html**: The main HTML file for the website, dynamically linking to the content and templates.
+- **index.html**: The main landing page, linking to all content sections.
 
-- **README.md**: Documentation for the project, explaining its structure and usage.
+- **README.md**: This documentation file.
 
-## Usage
-To run the website, open `index.html` in a web browser. You can modify the content in the markdown or HTML files located in the `content/` directory to update the website's sections. The styles can be adjusted in `assets/css/stylesheet.css`, and any JavaScript functionality can be modified in `assets/js/`.
+## Usage & Customization
+1. **Preview Locally:**  
+   Open `index.html` in your browser to view the website.
+
+2. **Customize Content:**  
+   Edit or replace markdown/HTML files in the `content/` directory to personalize sections such as About, Research, Projects, and Teaching.
+
+3. **Change Appearance:**  
+   Modify `assets/css/stylesheet.css` to update colors, fonts, and layout.
+
+4. **Add Interactivity:**  
+   Enhance or change interactive features by editing files in `assets/js/`.
+
+5. **Add New Sections:**  
+   Create new markdown or HTML files in `content/` and link them from `index.html` as needed.
 
 ## Features
-- **Dynamic Content Rendering**: Markdown files are dynamically converted to HTML using Showdown.js.
-- **Light/Dark Mode Toggle**: A toggle button allows users to switch between light and dark themes.
-- **Interactive Profile Image**: The profile image changes on hover and click, with alternate images and GIFs.
-- **Responsive Design**: The website is mobile-friendly and adapts to different screen sizes.
+- **Markdown Support:** Content is rendered dynamically from markdown using Showdown.js.
+- **Light/Dark Mode:** Toggle between light and dark themes.
+- **Interactive Profile Image:** Profile image changes on hover/click.
+- **Responsive Design:** Mobile-friendly and adapts to all screen sizes.
 
-## Future Updates
-This project is designed to be easily modifiable. You can:
-- Add new sections by creating new markdown or HTML files in the `content/` directory.
-- Enhance the website's appearance by updating `stylesheet.css`.
-- Add new interactive features by modifying or adding JavaScript files in `assets/js/`.
+## Adapting This Website
+This template is open-source and intended for reuse!  
+If you adapt or build upon this website, please consider crediting the original format as follows (for example, in your site footer):
+
+> Website format adapted from [Khalid M Jaffar](https://khalid2696.github.io/)
+
+Your acknowledgment would be very much appreciated!
 
 ## License
-This project is open-source and can be modified or redistributed under the terms of the MIT License.
+This project is licensed under the MIT License. You are free to use, modify, and redistribute it.
 
 ## Credits
-If you find this codebase useful and use it for designing your own website, consider giving credit as "Website format adapted from [Khalid M Jaffar](https://khalid2696.github.io/)" in your homepage footer. Would mean a lot to me :)
+If you find this template helpful, a mention or link back would mean a lot!
