@@ -1,9 +1,12 @@
 # Fun Stuff and Useful resources
 
-### Random blurbs about me:
+### Random trivia about me:
+<!-- ### Random trivia about me: <img src="assets/img/not-a-robot.png" alt="Not a robot" width="24" style="vertical-align:middle;"> -->
 - Before getting serious in my academic career, I was a lifestyle photographer and indie short filmmaker.
 - I follow Manchester United, Baltimore Ravens, and Australian Test cricket.
-- I used to crack Math Olympiads during high school.
+- When in a new town, I like to find quirky hole-in-the-wall spots to eat.
+- I was active in Math Olympiads during high school.
+- I like red bell peppers more than green or yellow ones.
 - <a href="https://www.csauthors.net/distance/mohamed-khalid-m-jaffar/paul-erdos" target="_blank">My Erdős Number is 4.</a>
 <!-- - Foreword to biography of young Khalid (if that ever happens) -- as written by my undergrad hostel mates. -->
 <!-- - [My Erdős Number is 4](https://www.csauthors.net/distance/mohamed-khalid-m-jaffar/paul-erdos). -->
